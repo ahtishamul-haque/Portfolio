@@ -42,8 +42,8 @@ A modern, responsive personal portfolio built using React 19 and Create React Ap
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ahtishamul-haque/portfolio.git
-cd portfolio
+git clone https://github.com/ahtishamul-haque/Portfolio.git
+cd Portfolio
 ```
 
 ### 2. Install dependencies
@@ -89,13 +89,15 @@ If you're using [Render](https://render.com) for deployment:
   ```
 
 - **Start Command:**  
-  _(Leave blank for static site)_
+  ```bash
+  npm run start
+  ```
 
 ---
 
 ## Live Demo
 
-🔗 [View Live Site](https://your-portfolio.onrender.com/)
+🔗 [View Live Site](https://portfolio-45mg.onrender.com/)
 
 ---
 
