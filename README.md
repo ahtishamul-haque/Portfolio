@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio
 
 A modern, responsive personal portfolio built using React 19 and Create React App. Showcases projects, skills, and contact information for developers and creatives.
 
@@ -24,7 +24,6 @@ A modern, responsive personal portfolio built using React 19 and Create React Ap
 - Built with React 19 and react-scripts
 - Easy to customize with modular components
 - Clean layout for showcasing projects, skills, and contact info
-- Deployed as a static site on Render
 
 ---
 
@@ -34,7 +33,7 @@ A modern, responsive personal portfolio built using React 19 and Create React Ap
 - Create React App (react-scripts)
 - JavaScript (ES6+)
 - HTML/CSS
-- Render (for static deployment)
+- Render (for deployment)
 
 ---
 
@@ -43,7 +42,7 @@ A modern, responsive personal portfolio built using React 19 and Create React Ap
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/ahtishamul-haque/portfolio.git
 cd portfolio
 ```
 
