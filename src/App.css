@@ -426,18 +426,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Styling */
-@media (max-width: 600px) {
-  .header-content {
-    flex-direction: column;
-  }
-
-  .resume-button {
-    position: static;
-    margin-top: 10px;
-  }
-}
-
 /* Miscellaneous */
 .experience-list :hover {
   color: unset !important;
@@ -478,4 +466,108 @@ a:hover {
   box-shadow: none !important;
   transition: none !important;
   cursor: default !important;
+}
+
+/* Small Tablets & Below (≤768px) */
+@media (max-width: 768px) {
+  .App {
+    padding: 20px 10px;
+  }
+
+  .header-name {
+    font-size: 1.8rem;
+  }
+
+  .education-entry,
+  .experience-item,
+  .project-item {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .project-header,
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-title,
+  .experience-title {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .project-date,
+  .experience-date,
+  .experience-duration {
+    margin-right: 0;
+    font-size: 0.85rem;
+  }
+
+  .project-links-a,
+  .project-links-b {
+    margin-right: 0;
+  }
+
+  .dot-line::before {
+    margin-left: 10px;
+  }
+
+  .achievement-text {
+    margin-left: 10px;
+  }
+
+  .achievement-date {
+    margin-right: 0;
+    font-size: 0.85rem;
+  }
+
+  #skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #skills li {
+    margin: 5px 0;
+  }
+}
+
+/* Mobile (≤480px) */
+@media (max-width: 480px) {
+  .header-name {
+    font-size: 1.5rem;
+  }
+
+  .resume-button {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-title,
+  .experience-title {
+    font-size: 1rem;
+  }
+
+  .dot-line::before {
+    margin-left: 0;
+  }
+
+  .achievement-text {
+    font-size: 0.9rem;
+  }
+
+  .contact-list a {
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .contact-list li {
+    margin: 0.5rem 0;
+  }
 }
