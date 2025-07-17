@@ -533,8 +533,8 @@ a:hover {
   }
 }
 
-/* Mobile (≤400px) */
-@media (max-width: 400px) {
+/* Mobile (≤767px) */
+@media (max-width: 767px) {
   .header-content {
     flex-direction: column;
     align-items: center;
