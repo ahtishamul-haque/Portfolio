@@ -200,7 +200,7 @@ function App() {
           </li>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <li>
-            <a href="https://linkedin.com/in/ahtishamulhaque" target="_blank">
+            <a href="https://linkedin.com/in/ahtishamul-haque-2136093a5" target="_blank">
             <i class="fab fa-linkedin"></i> LinkedIn
             </a>
           </li>
