@@ -35,7 +35,7 @@ function App() {
       <div class="education-entry">
         <div class="edu-header edu-header-b">
           <h3>St. Xavier's School</h3>
-          <span class="edu-location">   Ballia, Uttar Pradesh</span>
+          <span class="edu-location">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ballia, Uttar Pradesh</span>
         </div>
         <div class="edu-details">
           <p class="edu-degree">Class XII</p>
